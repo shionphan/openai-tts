@@ -9,7 +9,7 @@ This is a tool developed using the API provided by OpenAI, originating from Open
 * Install the OpenAI Python library and set the API key in your environment variables
 * Users can run this script from the command line and have the option to specify these parameters. * For example, execute `python openai-tts.py --model "tts-1" --voice "alloy" --text "Hello, world!" --path "/path/to/speech.mp3"`.
 * If the user does not specify any parameters, the script will use the default values.
-
+------------------
 * 你需要在Python环境中安装OpenAI，并在全局变量中设置好oepnAI申请的API key
 * 你可以在命令行中运行此脚本，并可以选择指定这些参数。例如`python openai-tts.py --model "tts-1" --voice "alloy" --text "Hello, world!" --path "/path/to/speech.mp3"`。
 * 如果不想设置参数，脚本会使用默认参数
@@ -20,7 +20,7 @@ This is a tool developed using the API provided by OpenAI, originating from Open
 * Before you start, you need to read the OpenAI API documentation (https://platform.openai.com/docs/quickstart?context=python) and set the API key in your environment variables.
 * Ensure that you have installed the `argparse`` library, which is part of the Python standard library and is used for parsing command-line arguments.
 * I have used the Path type for handling file paths, which helps ensure compatibility across different platforms.
-
+------------------
 * 在使用之前，你需要阅读这个文档 (https://platform.openai.com/docs/quickstart?context=python) 并在你的环境变量中设置API key。
 * 确保您安装了 `argparse` 库，它是Python标准库的一部分，用于解析命令行参数。
 * 使用 `Path` 类型来处理文件路径，这可以帮助确保跨平台的兼容性。
